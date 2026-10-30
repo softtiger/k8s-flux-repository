@@ -9,5 +9,5 @@ spec:
   prune: true
   sourceRef:
     kind: GitRepository
-    name: ngx-flux-demo
+    name: flux-system
   targetNamespace: default
