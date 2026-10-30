@@ -4,6 +4,7 @@ metadata:
   labels:
     app: ngx-dep
   name: ngx-dep
+  namespace: default
   annotations:
     kubernetes.io/change-cause: v2, ngx=1.22
 spec:
