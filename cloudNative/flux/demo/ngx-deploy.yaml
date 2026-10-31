@@ -6,7 +6,7 @@ metadata:
   name: ngx-dep
   namespace: default
   annotations:
-    kubernetes.io/change-cause: v2, ngx=1.22
+    kubernetes.io/change-cause: v2, ngx=1.23
 spec:
   minReadySeconds: 15
   replicas: 2
@@ -24,7 +24,7 @@ spec:
           configMap:
             name: ngx-conf
       containers:
-        - image: nginx:1.22-alpine
+        - image: nginx:1.23-alpine
           name: nginx
           ports:
             - containerPort: 80
